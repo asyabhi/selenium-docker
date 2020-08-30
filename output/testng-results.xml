@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module" duration-ms="46677" started-at="2020-08-18T19:48:06 GMT" finished-at="2020-08-18T19:48:53 GMT">
+    <groups>
+    </groups>
+    <test name="search-docker" duration-ms="39129" started-at="2020-08-18T19:48:06 GMT" finished-at="2020-08-18T19:48:45 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@c038203]" name="setupDriver" is-config="true" duration-ms="32441" started-at="2020-08-18T19:48:06 GMT" finished-at="2020-08-18T19:48:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@c038203]" name="search" duration-ms="6621" started-at="2020-08-18T19:48:39 GMT" finished-at="2020-08-18T19:48:45 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="teardownDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@c038203]" name="teardownDriver" is-config="true" duration-ms="62" started-at="2020-08-18T19:48:45 GMT" finished-at="2020-08-18T19:48:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-docker -->
+    <test name="search-qa" duration-ms="46677" started-at="2020-08-18T19:48:06 GMT" finished-at="2020-08-18T19:48:53 GMT">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@482f8f11]" name="setupDriver" is-config="true" duration-ms="39618" started-at="2020-08-18T19:48:06 GMT" finished-at="2020-08-18T19:48:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@482f8f11]" name="search" duration-ms="6991" started-at="2020-08-18T19:48:46 GMT" finished-at="2020-08-18T19:48:53 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="teardownDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@482f8f11]" name="teardownDriver" is-config="true" duration-ms="63" started-at="2020-08-18T19:48:53 GMT" finished-at="2020-08-18T19:48:53 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-qa -->
+  </suite> <!-- search-module -->
+</testng-results>

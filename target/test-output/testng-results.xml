@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-18T13:21:00 SAST" name="search-module" finished-at="2020-08-18T13:21:40 SAST" duration-ms="40316">
+    <groups>
+    </groups>
+    <test started-at="2020-08-18T13:21:00 SAST" name="search-qa" finished-at="2020-08-18T13:21:32 SAST" duration-ms="32468">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@4ae82894]" started-at="2020-08-18T13:21:00 SAST" name="setupDriver" finished-at="2020-08-18T13:21:26 SAST" duration-ms="26046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@4ae82894]" started-at="2020-08-18T13:21:26 SAST" name="search" finished-at="2020-08-18T13:21:32 SAST" duration-ms="5965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="teardownDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@4ae82894]" started-at="2020-08-18T13:21:32 SAST" name="teardownDriver" finished-at="2020-08-18T13:21:32 SAST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-qa -->
+    <test started-at="2020-08-18T13:21:00 SAST" name="search-webdriver" finished-at="2020-08-18T13:21:40 SAST" duration-ms="40316">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@44a3ec6b]" started-at="2020-08-18T13:21:00 SAST" name="setupDriver" finished-at="2020-08-18T13:21:33 SAST" duration-ms="33558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@44a3ec6b]" started-at="2020-08-18T13:21:33 SAST" name="search" finished-at="2020-08-18T13:21:40 SAST" duration-ms="6398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="teardownDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@44a3ec6b]" started-at="2020-08-18T13:21:40 SAST" name="teardownDriver" finished-at="2020-08-18T13:21:40 SAST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-webdriver -->
+  </suite> <!-- search-module -->
+</testng-results>
